@@ -1,6 +1,9 @@
 version: '3'
 services:
+  node:
+    environment: 
+      - PORT=8329
   web:
     build: .
     ports:
-      - "3000:3000"
+      - "8329:8329"
