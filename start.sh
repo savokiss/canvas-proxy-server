@@ -1,0 +1,1 @@
+docker run -d -p 3100:3100 --name canvas-proxy canvas-proxy:latest
