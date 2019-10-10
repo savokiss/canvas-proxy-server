@@ -4,6 +4,6 @@ WORKDIR /app
 COPY package.json /app
 RUN npm install
 COPY . /app
-EXPOSE 8329
-ENV PORT 8329
+ENV PORT 3100
+EXPOSE 3100
 CMD node ./bin/www
