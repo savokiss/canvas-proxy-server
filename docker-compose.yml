@@ -1,8 +1,5 @@
 version: '3'
 services:
-  node:
-    environment: 
-      - PORT=8329
   web:
     build: .
     ports:
