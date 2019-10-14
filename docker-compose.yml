@@ -1,6 +1,11 @@
 version: '3'
 services:
   web:
+    networks:
+      - node-network
     build: .
     ports:
       - "3100:3100"
+networks:
+  node-network:
+    driver: bridge
